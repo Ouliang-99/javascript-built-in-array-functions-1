@@ -7,10 +7,12 @@ const todos = [
 ];
 
 function getTodoTopics(todos) {
-  // Start coding here
+  // ใช้ map เพื่อดึงชื่อ topic ของแต่ละ todo และเก็บในอาร์เรย์ใหม่
+  return todos.map((todo) => todo.topic);
 }
 
-getTodoTopics(todos);
+console.log(getTodoTopics(todos));
+
 
 /* 
 	Output:
